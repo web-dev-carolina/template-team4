@@ -1,2 +1,6 @@
 ### `CHANGE .ENV FILE`
 
+### `NPM I MOMENT`
+### `NPM I AXIOS`
+### `NPM I REACT-BIG-CALENDAR`
+
