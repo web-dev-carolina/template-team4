@@ -5,7 +5,6 @@ import Gallery from '../components/Gallery';
 import Testimonials from '../components/Testimonials';
 import Contact from '../components/Contact';
 import About from '../components/About';
-import People from '../components/People';
 const Home = () => {
 
     return (
@@ -15,7 +14,6 @@ const Home = () => {
             <Landing/>
             <Announcements/>
             <About/>
-            <People/>
             <Gallery/>
             <Testimonials/>
             <Contact/>

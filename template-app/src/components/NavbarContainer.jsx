@@ -18,7 +18,7 @@ const NavbarContainer = () => {
                 <Nav className="mx-auto">
                     <Nav.Link as={Link} to="/"> Home </Nav.Link>
                     <Nav.Link as={Link} to="/megan">Megan</Nav.Link>
-                    <Nav.Link as={Link} to="/jackson">Jackson</Nav.Link>
+                    <Nav.Link as={Link} to="/jackson">Calendar</Nav.Link>
                     <Nav.Link as={Link} to="/olivia">Olivia</Nav.Link>
                     <Nav.Link as={Link} to="/nima">Nima</Nav.Link>
                 </Nav>

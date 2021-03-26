@@ -1,6 +1,5 @@
 import React from 'react';
 import About from '../components/About';
-import People from '../components/People';
 const Olivia = () => {
 
     return (
@@ -8,7 +7,6 @@ const Olivia = () => {
             <h1>Olivia's workspace</h1>
             <p>Components linked below</p>
             <About></About>
-            <People></People>
         </>
     )
 }
