@@ -9,7 +9,7 @@ const localizer = momentLocalizer(moment);
 const Jackson = () => {
   const [items, setItems] = useState([]);
 
-
+// fetch items from localhost:xxxx and set them to itemsState
   useEffect(() => {
     const fetchItems = async () => {
         const e = await getEvents(); //
@@ -22,7 +22,7 @@ const Jackson = () => {
     return ( 
       <div style={{ height: '500pt', zIndex: -1 }}>
         <Calendar
-            events={
+            events={ // items are the retrieved events from mongodb
               items.map(event   => (    
                    {
                   title: event.title,
