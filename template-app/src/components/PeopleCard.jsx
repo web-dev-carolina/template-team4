@@ -9,13 +9,13 @@ const PeopleCard = (props) => {
     return(
         <>
         <Card>
-            <Card.body style = {myStyle}>
+            <Card.Body style = {myStyle}>
                 <Card.Title>{props.people.fname} {props.people.lname}</Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">{props.people.pos}</Card.Subtitle>
                 <Card.Text>
                     {props.people.bio}
                 </Card.Text>
-            </Card.body>
+            </Card.Body>
         </Card>
         </>
     )
