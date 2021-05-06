@@ -1,2 +1,2 @@
-export const getEvents = () => fetch("http://localhost:8081/").then(res => res.json());
+export const getEvents = () => fetch("http://localhost:8088/").then(res => res.json());
 
